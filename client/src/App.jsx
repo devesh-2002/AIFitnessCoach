@@ -24,7 +24,7 @@ function App() {
     setLoading(true);
 
     try {
-      const postUrl = 'http://localhost:3001/submit-form';
+      const postUrl = 'https://server-ohsd.onrender.com/submit-form';
       const postHeaders = {
         'Content-Type': 'application/json',
       };
